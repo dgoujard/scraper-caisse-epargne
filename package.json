@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "dotenv": "^4.0.0",
-    "selenium-webdriver": "^3.6.0"
+    "selenium-webdriver": "^3.6.0",
+    "table": "^4.0.2"
   }
 }
