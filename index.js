@@ -5,7 +5,7 @@ const database = require('./lib/database')
 const output = require('./lib/output')
 
 browser.downloadAccountBalanceAndOperations()
-  .then(account => {
-    database.save(account)
-    output.show(account)
+  .then(accounts => {
+    database.save(accounts)
+    output.show(accounts)
   })
